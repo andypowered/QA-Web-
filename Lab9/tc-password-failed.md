@@ -24,4 +24,4 @@
 **Environment:** -
 
 ### 📎 Evidence
-- [Screenshot - login page without error message](https://github.com/andypowered/QA-Web-/blob/main/Lab9/failedpassword.png)
+- ![Screenshot - login page without error message](https://github.com/andypowered/QA-Web-/blob/main/Lab9/failedpassword.png)
