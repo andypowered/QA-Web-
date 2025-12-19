@@ -1,48 +1,44 @@
-# Bug Report: Phone number input field inactive on orange.md
+# Raport de Bug: Campul pentru numar de telefon inactiv pe orange.md
 
-## Bug ID: WEB-PHONE-001
-## Bug Name: Inactive phone number input field
-## Severity: High
-## Priority: High
+## ID Bug: WebPhone-001
+## Nume Bug: Câmp inactiv pentru introducerea numărului de telefon
+## Severitate: Ridicată
+## Prioritate: Ridicată
 
-## Bug Summary:
-When composing a web message on the orange.md website, on the data entry page, the field intended for entering the phone number is not active, preventing the completion of the form.
+## Rezumat Bug:
+La compunerea unui mesaj web de pe site-ul orange.md, în momentul în care apare pagina de introducere a datelor, căsuța destinată introducerii numărului de telefon nu este activă, împiedicând completarea formularului.
 
-## Preconditions:
-1. Internet access.
-2. Updated browser (testing recommended on Chrome, Firefox, Edge).
-3. Navigation to the **orange.md** website.
-4. Access to the web message composition section.
+## Condiții Prealabile:
+1. Acces la internet.
+2. Browser actualizat (se recomandă testarea pe Chrome, Firefox, Edge).
+3. Navigare pe site-ul **orange.md**.
+4. Accesarea secțiunii de compunere a mesajului web.
 
-## Steps to Reproduce:
-1. Open the orange.md website.
-2. Navigate to the web message composition section (or similar forms requiring phone number input).
-3. Complete any previous mandatory fields (e.g., name, email).
-4. Attempt to click or enter text in the phone number input field.
+## Pași pentru Reproducere:
+1. Deschideți site-ul orange.md.
+2. Navigați la secțiunea pentru compunerea unui mesaj web (sau formulare similare care necesită introducerea numărului de telefon).
+3. Completați eventualele câmpuri obligatorii anterioare (ex: nume, email).
+4. Încercați să faceți clic sau să introduceți text în câmpul destinat numărului de telefon.
 
-## Expected Result:
-The phone number input field should be active and editable, allowing the user to enter the phone number in the required format.
+## Rezultat Așteptat:
+Câmpul pentru introducerea numărului de telefon ar trebui să fie activ și editabil, permițând utilizatorului să introducă numărul de telefon în formatul cerut.
 
-## Actual Result:
-The field is inactive (disabled) – it cannot be clicked or receive any text input, completely blocking the message submission process.
+## Rezultat Actual:
+Câmpul este inactiv (dezactivat) – nu se poate face clic în el și nu se poate introduce niciun text, blocând complet procesul de trimitere a mesajului.
 
-## Additional Notes:
-- The defect can be reproduced on multiple browser versions.
-- Direct impact on UX and conversion rate.
-- Urgent fix is required as it blocks an essential website functionality.
+## Observații Suplimentare:
+- Defectul poate fi reprodus pe mai multe versiuni de browser.
+- Impact direct asupra experienței utilizatorului și a ratei de conversie.
+- Este necesară remedierea urgentă deoarece blochează o funcționalitate esențială a site-ului.
 
-## Environment:
+## Mediu de Testare:
 - Browser: Chrome 123+, Firefox 122+, Edge 122+
-- OS: Windows 10/11, macOS Sonoma, Ubuntu 22.04
-- Device: Desktop (also tested on laptop)
+- Sistem de Operare: Windows 10/11, macOS Sonoma, Ubuntu 22.04
+- Dispozitiv: Desktop (testat și pe laptop)
 
-## Attachments:
-- Screenshot of the page with the inactive field.
-- Console log (if JavaScript errors are present).
-- Link to the test page: [orange.md/contact](https://orange.md/contact)
-
-## Assignee:
-[Frontend Development / QA Team]
-
+## Atașamente:
+- Captură de ecran a paginii cu câmpul inactiv.
+- Log de consolă (dacă sunt erori JavaScript).
+- Link către pagina de test: [orange.md/contact](https://orange.md/contact)
 ## Status:
-OPEN
+DESCHIS
